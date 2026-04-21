@@ -7,7 +7,7 @@ export const api = {
 
         // inicializar headers e token
         const headers: HeadersInit = {
-            'Contenty-Type': 'application/json',
+            'Content-Type': 'application/json',
             ...(token ? {'Authorization': `Bearer ${token}`} : {})
         };
        
